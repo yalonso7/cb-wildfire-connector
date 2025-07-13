@@ -4,3 +4,5 @@ requests>=2.20.0
 lxml>=3.6.0
 pyinstaller==3.1.1
 flask==0.12.4
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
